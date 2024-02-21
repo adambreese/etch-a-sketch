@@ -34,8 +34,8 @@ else( "your number is too big, gotta be less than 100")
 const container = document.querySelector('.container');
 container.style.display = 'flex';
 container.style.flexDirection = 'column';
-container.style.width = '960px';
-container.style.height = '960px';
+container.style.width = '500px';
+container.style.height = '500px';
 container.style.backgroundColor = 'teal';
 
 function makeGrid(gridSize) {
