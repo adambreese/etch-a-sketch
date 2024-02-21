@@ -56,6 +56,12 @@ function makeGrid(gridSize) {
             row.appendChild(block);
         }
     }
+    const blocks = document.querySelectorAll('.block');
+    blocks.forEach((block) => {
+        block.addEventListener('mouseover', () => {
+            block.style.backgroundColor = 'black';
+        })
+    })
 }
 
 function removeGrid() {
